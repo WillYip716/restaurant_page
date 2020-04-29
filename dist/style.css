@@ -1,0 +1,48 @@
+body{
+    background-image: url('images/ingredients.jpg');
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+#topdiv{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#footdiv{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+
+#centerdiv {
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#title{
+    font-size: 25px;
+}
